@@ -6,7 +6,7 @@ const Icon = ({path}) => {
     <div className='text-gray-500 hover:text-gray-900 dark:hover:text-white'>
         <Link href=''>
             <svg className='w-5 h-5' fill='currentColor' viewBox='0 0 24 24' aria-hidden='true'>
-                <path fill-rule='evenodd' d={path} clip-rule='evenodd'></path>
+                <path fillRule='evenodd' d={path} clipRule='evenodd'></path>
             </svg>
         </Link>
     </div>
