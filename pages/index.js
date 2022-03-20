@@ -1,9 +1,9 @@
-import styles from '../styles/Home.module.css'
+import Home from '../components/home/Home'
 
-export default function Home() {
+export default function Index() {
   return (
-    <div className='text-3xl font-bold underline'>
-      Headerrrr
+    <div className=''>
+      <Home />
     </div>
   )
 }
