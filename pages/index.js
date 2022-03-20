@@ -1,5 +1,6 @@
 import Home from '../components/home/Home'
 import Head from '../components/seo/Head'
+import Contact from './../components/contact/Contact'
 
 export default function Index() {
   const props = {
@@ -13,6 +14,7 @@ export default function Index() {
     <main>
       <Head props={props}/>
       <Home />
+      <Contact />
     </main>
   )
 }
