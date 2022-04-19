@@ -1,6 +1,6 @@
-import Home from '../components/home/Home'
+import Home from '../components/_home/Home'
 import Head from '../components/seo/Head'
-import Contact from './../components/contact/Contact'
+import Contact from '../components/_contact/Contact'
 
 export default function Index() {
   const props = {
