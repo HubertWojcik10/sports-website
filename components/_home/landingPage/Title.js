@@ -1,6 +1,6 @@
 import React from 'react'
 
-const heading = 'Lorem Ipsum *dolor* sit amet'
+const heading = 'Znajdź *aktywności* w okolicy'
 
 const Title = ({lan=0}) => {
   return (

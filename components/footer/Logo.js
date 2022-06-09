@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { COMPANY_NAME } from '../../data/variables'
 
 const FooterLogo = () => {
   return (
@@ -7,7 +8,7 @@ const FooterLogo = () => {
         <Link href='/' className='flex items-center'>
             <div>
                 <span className='self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>
-                    Company
+                    {COMPANY_NAME}
                 </span>
             </div>
         </Link>

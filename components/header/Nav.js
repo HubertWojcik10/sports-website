@@ -6,10 +6,10 @@ const Nav = () => {
   return (
     <Popover.Group as='nav' className='hidden md:flex space-x-10 items-end'>
         <Link href='/'>
-            SubPage
+            Jak działamy?
         </Link>
         <Link href='/'>
-            SubPage
+            Aktywności
         </Link>
     </Popover.Group>
   )

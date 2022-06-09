@@ -3,7 +3,7 @@ import Head from 'next/head'
 import TwitterCard from './TwitterCard'
 import OgTags from './OgTags'
 
-const ICON = '/favicon.png'
+const ICON = '/logo.png'
 
 const HeadSEO = ({props}) => {
   return (

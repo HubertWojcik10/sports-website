@@ -4,11 +4,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    height: {
+      '3/4vh': '75vh',
+    },
     extend: {
       colors: {
-        'main': 'red', 
-        'hovermain': 'green',
-      }
+        'main': '#079df9',
+        'hovermain': '#057dc7',
+      },
     },
   },
   plugins: [],
