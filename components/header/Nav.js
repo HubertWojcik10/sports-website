@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Nav = () => {
   return (
     <Popover.Group as='nav' className='hidden md:flex space-x-10 items-end'>
-        <Link href='/'>
+        <Link href='/jak-dziala-sports-city'>
             Jak działamy?
         </Link>
         <Link href='/'>
