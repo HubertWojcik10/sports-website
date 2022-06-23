@@ -1,18 +1,18 @@
 import React from 'react'
 import Header from '../header/Header'
-import PageTitle from '../universal/pages/PageTitle'
 import PageDescription from '../universal/pages/PageDescription'
+import PageTitle from '../universal/pages/PageTitle'
 
-const GuideComp = () => {
+const OrganizatorsComp = () => {
   return (
     <>
         <Header />
         <main className='lg:w-4/5 mx-auto py-10 px-3 min-h-screen pt-40'>
-            <PageTitle title='Poradnik' />
+            <PageTitle title='Organizatorzy' />
             <PageDescription description='' />
-         </main>
+        </main>
     </>
   )
 }
 
-export default GuideComp
+export default OrganizatorsComp

@@ -8,8 +8,8 @@ const Nav = () => {
         <Link href='/jak-dziala-sports-city'>
             Jak działamy?
         </Link>
-        <Link href='/'>
-            Aktywności
+        <Link href='/organizatorzy'>
+            Organizatorzy
         </Link>
     </Popover.Group>
   )

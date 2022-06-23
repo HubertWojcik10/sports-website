@@ -11,7 +11,7 @@ const HomeCallToAction = () => {
           </Link>
           <Link href='/' className='w-full flex items-center justify-center'>
             <u className='pt-5 text-black cursor-pointer'>
-              Dla właścicieli biznesów 
+              Jesteś organizatorem?
             </u>
           </Link>
     </div>
