@@ -1,7 +1,7 @@
 import Home from '../components/_home/Home'
 import Head from '../components/seo/Head'
-import Contact from '../components/_contact/Contact'
 import Header from '../components/header/Header'
+import ContactForm from '../components/_contact/ContactForm'
 
 export default function Index() {
   const props = {
@@ -16,7 +16,7 @@ export default function Index() {
       <Head props={props}/>
       <Header />
       <Home />
-      <Contact />
+      <ContactForm />
     </main>
   )
 }

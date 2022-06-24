@@ -5,7 +5,7 @@ import TextArea from './TextArea'
 import { useForm } from '@formspree/react'
 import Disclaimer from './Disclaimer'
 
-const Contact = () => {
+const ContactForm = () => {
     const [state, handleSubmit] = useForm('FORMID');
     if (state.succeeded) {
         return <div> Dziękujemy za kontakt! </div>;
@@ -13,9 +13,9 @@ const Contact = () => {
 
     return (
         <div className='w-full flex items-center justify-center my-12'>
-            <form onSubmit={handleSubmit} className='top-40 bg-white shadow-lg rounded py-12 px-8 md:w-1/2 w-full'>
+            <form onSubmit={handleSubmit} className='top-40 bg-white shadow-lg rounded py-12 px-8 md:w-1/2 w-full border'>
                 <Content />
-                <div className='md:flex items-center mt-12'>
+                 <div className='md:flex items-center mt-12'>
                     <Input label='Imię' />
                     <Input label='Email' />
                 </div>
@@ -34,4 +34,4 @@ const Contact = () => {
     );
 }
 
-export default Contact;
+export default ContactForm;

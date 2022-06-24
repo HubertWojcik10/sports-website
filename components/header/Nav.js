@@ -11,6 +11,9 @@ const Nav = () => {
         <Link href='/organizatorzy'>
             Organizatorzy
         </Link>
+        <Link href='/kontakt'>
+            Kontakt
+        </Link>
     </Popover.Group>
   )
 }
