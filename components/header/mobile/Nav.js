@@ -4,13 +4,14 @@ import Link from 'next/link'
 const Nav = () => {
   return (
     <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-        <Link href='/'
-            className='text-base font-medium text-gray-500 hover:text-gray-900' >
-            SubPage
+        <Link href='/jak-dziala-sports-city'>
+            Jak działamy?
         </Link>
-        <Link href='/'
-            className='text-base font-medium text-gray-500 hover:text-gray-900' >
-            SubPage
+        <Link href='/organizatorzy'>
+            Organizatorzy
+        </Link>
+        <Link href='/kontakt'>
+            Kontakt
         </Link>
     </div>
   )
