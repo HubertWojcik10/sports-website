@@ -1,0 +1,15 @@
+{
+    "title": "Poradnik",
+    "subtitle": "Jak działa Sports City?",
+    "description": "[Ogólny opis aplikacji]",
+    "guide": [
+        {
+            "title": "Aktywności",
+            "description": "[Opis opcji]"
+        },
+        {
+            "title": "Eventy",
+            "description": "[Opis opcji]"
+        }
+    ]
+}
