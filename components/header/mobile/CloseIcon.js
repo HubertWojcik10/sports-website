@@ -1,5 +1,6 @@
 import React from 'react'
 import { Popover } from '@headlessui/react'
+import { XIcon } from '@heroicons/react/outline'
 
 const CloseIcon = () => {
   return (

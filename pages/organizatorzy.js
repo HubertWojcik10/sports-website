@@ -1,10 +1,10 @@
 import React from 'react'
-import OrganizatorsComp from '../components/_organizators/OrganizatorsComp'
+import OrganizersComp from '../components/_organizers/OrganizersComp'
 
 const Organizators = () => {
   return (
     <>
-      <OrganizatorsComp />
+      <OrganizersComp />
     </>
   )
 }
