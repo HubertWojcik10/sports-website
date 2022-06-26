@@ -5,11 +5,13 @@
     "guide": [
         {
             "title": "Aktywności",
-            "description": "[Opis opcji]"
+            "description": "[Opis opcji]",
+            "img": "/pilates.jpg"
         },
         {
             "title": "Eventy",
-            "description": "[Opis opcji]"
+            "description": "[Opis opcji]",
+            "img": "/pilates.jpg"
         }
     ]
 }

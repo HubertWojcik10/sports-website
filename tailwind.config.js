@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         'main': '#079df9',
         'hovermain': '#057dc7',
+        'lightmain': '#ceebfd',
       },
     },
   },

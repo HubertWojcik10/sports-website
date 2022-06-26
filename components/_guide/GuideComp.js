@@ -4,6 +4,7 @@ import PageTitle from '../universal/pages/PageTitle'
 import PageDescription from '../universal/pages/PageDescription'
 import PageSubTitle from '../universal/pages/PageSubTitle'
 import data from '../../data/pages/guide.json'
+import Item from './Item'
 
 const GuideComp = () => {
   return (
@@ -18,9 +19,8 @@ const GuideComp = () => {
               data.guide.map((item, index) => {
                 //TODO
                 return (
-                  <div key={index} className='flex flex-col items-center justify-center'>
-                    {item.title}
-                  </div>)
+                  <Item key={index} data={item} />
+                )
               })
             }
          </main>
