@@ -8,7 +8,7 @@ const ICON = '/logo.png'
 const HeadSEO = ({props}) => {
   return (
     <Head>
-        <title> {props.title} </title>
+        <title> {props.meta_title} </title>
         <meta charset='utf-8' />
         <meta name='description' content={props.description} />
         <link rel='icon' href={ICON} />
