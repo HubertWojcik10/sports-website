@@ -9,7 +9,7 @@ const HomeCallToAction = ({cta, org}) => {
               {cta}
             </div>
           </Link>
-          <Link href='/' className='w-full flex items-center justify-center'>
+          <Link href='/zostan-organizatorem' className='w-full flex items-center justify-center'>
             <u className='pt-5 text-black cursor-pointer'>
               {org}
             </u>

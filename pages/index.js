@@ -11,7 +11,6 @@ const Index = () => {
       <Head props={seo}/>
       <Header />
       <Home />
-      <ContactForm />
     </>
   )
 }

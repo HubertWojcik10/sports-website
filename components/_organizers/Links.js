@@ -16,7 +16,7 @@ const Links = ({data}) => {
                 {data.login}
             </a>
         </Link>
-        <Link href={'/formularz-kontaktowy'}>
+        <Link href={'/kontakt'}>
             <a className='cursor-pointer mt-3 hover:text-gray-800 font-semibold'>
                 {data.ask_question}
             </a>
